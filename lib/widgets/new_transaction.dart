@@ -95,7 +95,8 @@ class _NewTransactionState extends State<NewTransaction> {
                     ),
                     TextButton(
                       style: TextButton.styleFrom(
-                          backgroundColor: Theme.of(context).primaryColor),
+                        backgroundColor: Colors.blue,
+                      ),
                       child: Text(
                         'Choose Date',
                         style: TextStyle(

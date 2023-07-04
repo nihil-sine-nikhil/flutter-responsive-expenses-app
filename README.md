@@ -22,9 +22,9 @@ The main purpose of this app is to demonstrate how Flutter enables developers to
 
 To explore and test the responsive and adaptive nature of Flutter using this app, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-repository.git`
+1. Clone this repository: `git clone https://github.com/nikhilsharmaji/flutter-responsive-expenses-app.git`
 2. Install Flutter SDK (if not already installed): [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
-3. Navigate to the app directory: `cd flutter-responsive-app`
+3. Navigate to the app directory: `cd flutter-responsive-expenses-app`
 4. Fetch dependencies: `flutter pub get`
 5. Run the app: `flutter run`
 
