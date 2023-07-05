@@ -4,8 +4,6 @@ import 'package:uuid/uuid.dart';
 
 final formatter = DateFormat.yMd();
 
-const uuid = Uuid();
-
 enum Category { food, travel, leisure, work }
 
 const categoryIcons = {
@@ -15,13 +13,16 @@ const categoryIcons = {
   Category.work: Icons.work,
 };
 
+const uuid = Uuid();
+
 class Expense {
-  Expense({
-    required this.title,
-    required this.amount,
-    required this.date,
-    required this.category,
-  }) : id = uuid.v4();
+  Expense(
+      {required this.title,
+      required this.amount,
+      required this.date,
+      required this.category,
+      D})
+      : id = uuid.v4();
 
   final String id;
   final String title;
